@@ -22,7 +22,7 @@ namespace DataSiswaXampp
 
             //ubah nama colom
             DataSiswa.Columns[0].HeaderText = "ID";
-            DataSiswa.Columns[1].HeaderText = "NIK";
+            DataSiswa.Columns[1].HeaderText = "NIM";
             DataSiswa.Columns[2].HeaderText = "Nama";
             DataSiswa.Columns[3].HeaderText = "Kelas";
             DataSiswa.Columns[4].HeaderText = "Alamat";
@@ -30,9 +30,26 @@ namespace DataSiswaXampp
             DataSiswa.Columns[6].HeaderText = "Nomor Telefon";
         }
 
+        private void TampilFilter(string kolom, string nilaiFilter)
+        {
+            //siswafungsi sf = new siswafungsi();
+            //DataTable dt = sf.FilterData(kolom);
+            //DataSiswa.DataSource = dt;
+            string query = $"SELECT * FROM siswadata WHERE {kolom} LIKE '%{nilaiFilter}%'";
+            DataSiswa.DataSource = koneksi.ShowData(query);
+        }
+
         private void Form1_Load(object sender, EventArgs e)
         {
             Tampil();
+            comboBox1.Items.Add("Pilih Filter");
+            comboBox1.Items.Add("NIM");
+            comboBox1.Items.Add("Nama");
+            comboBox1.Items.Add("Kelas");
+            comboBox1.Items.Add("Alamat");
+            comboBox1.Items.Add("Email");
+            comboBox1.Items.Add("Nomor Telepon");
+            comboBox1.SelectedIndex = 0;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -102,9 +119,6 @@ namespace DataSiswaXampp
             Alamat.Text = DataSiswa.Rows[e.RowIndex].Cells[4].Value.ToString();
             Email.Text = DataSiswa.Rows[e.RowIndex].Cells[5].Value.ToString();
             Nohp.Text = DataSiswa.Rows[e.RowIndex].Cells[6].Value.ToString();
-
-
-
         }
 
         private void TombolUbah_Click(object sender, EventArgs e)
@@ -161,6 +175,68 @@ namespace DataSiswaXampp
         }
 
         private void DataBaseSiswa_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //string tampilan = comboBox1.SelectedItem.ToString();
+            //if (tampilan == "Biasa")
+            //{
+            //    Tampil();
+            //}
+            //else if (tampilan == "Filter")
+            //{
+            //    TampilFilter("NIM, Nama, Kelas, Alamat, Email, NoHP");
+            //}
+
+            //string kolom = comboBox1.SelectedItem.ToString();
+            //string nilaiFilter = textBoxFilter.Text;
+            //if (nilaiFilter != "")
+            //{
+            //    TampilFilter(kolom, nilaiFilter);
+            //}
+            //else
+            //{
+            //    Tampil();
+            //}
+        }
+
+        private void FilterButton_Click(object sender, EventArgs e)
+        {
+            string FilterPilih = comboBox1.SelectedItem.ToString();
+            if (FilterPilih == "Pilih Filter")
+            {
+                DataSiswa.DataSource = koneksi.ShowData("SELECT * FROM siswadata");
+            }
+            if (FilterPilih == "NIM")
+            {
+                DataSiswa.DataSource = koneksi.ShowData("SELECT NIM FROM siswadata");
+            }
+            if (FilterPilih == "Nama")
+            {
+                DataSiswa.DataSource = koneksi.ShowData("SELECT nama FROM siswadata");
+            }
+            if (FilterPilih == "Kelas")
+            {
+                DataSiswa.DataSource = koneksi.ShowData("SELECT kelas FROM siswadata");
+            }
+            if (FilterPilih == "Email")
+            {
+                DataSiswa.DataSource = koneksi.ShowData("SELECT email FROM siswadata");
+            }
+            if (FilterPilih == "No. hp ")
+            {
+                DataSiswa.DataSource = koneksi.ShowData("SELECT nohp FROM siswadata");
+            }
+            if (FilterPilih == "Alamat")
+            {
+                DataSiswa.DataSource = koneksi.ShowData("SELECT alamat FROM siswadata");
+            }
+        }
+
+        private void TombolCari_Click(object sender, EventArgs e)
         {
 
         }

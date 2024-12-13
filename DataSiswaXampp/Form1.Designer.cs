@@ -47,7 +47,9 @@
             NIM = new TextBox();
             label2 = new Label();
             groupBox3 = new GroupBox();
-            TombolCari = new Button();
+            label8 = new Label();
+            FilterButton = new Button();
+            comboBox1 = new ComboBox();
             label7 = new Label();
             CariData = new TextBox();
             DataBaseSiswa.SuspendLayout();
@@ -87,11 +89,8 @@
             // groupBox2
             // 
             groupBox2.BackColor = Color.DarkCyan;
-            groupBox2.Controls.Add(TombolHapus);
             groupBox2.Controls.Add(Nohp);
-            groupBox2.Controls.Add(TombolUbah);
             groupBox2.Controls.Add(label6);
-            groupBox2.Controls.Add(TombolSimpan);
             groupBox2.Controls.Add(Email);
             groupBox2.Controls.Add(label1);
             groupBox2.Controls.Add(Alamat);
@@ -111,9 +110,9 @@
             // 
             // TombolHapus
             // 
-            TombolHapus.Location = new Point(638, 264);
+            TombolHapus.Location = new Point(310, 191);
             TombolHapus.Name = "TombolHapus";
-            TombolHapus.Size = new Size(112, 34);
+            TombolHapus.Size = new Size(178, 56);
             TombolHapus.TabIndex = 2;
             TombolHapus.Text = "Hapus";
             TombolHapus.UseVisualStyleBackColor = true;
@@ -121,16 +120,16 @@
             // 
             // Nohp
             // 
-            Nohp.Location = new Point(556, 191);
+            Nohp.Location = new Point(556, 188);
             Nohp.Name = "Nohp";
             Nohp.Size = new Size(199, 31);
             Nohp.TabIndex = 5;
             // 
             // TombolUbah
             // 
-            TombolUbah.Location = new Point(520, 264);
+            TombolUbah.Location = new Point(310, 128);
             TombolUbah.Name = "TombolUbah";
-            TombolUbah.Size = new Size(112, 34);
+            TombolUbah.Size = new Size(178, 57);
             TombolUbah.TabIndex = 1;
             TombolUbah.Text = "Ubah";
             TombolUbah.UseVisualStyleBackColor = true;
@@ -139,7 +138,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(421, 191);
+            label6.Location = new Point(421, 188);
             label6.Name = "label6";
             label6.Size = new Size(68, 25);
             label6.TabIndex = 8;
@@ -147,9 +146,9 @@
             // 
             // TombolSimpan
             // 
-            TombolSimpan.Location = new Point(402, 264);
+            TombolSimpan.Location = new Point(310, 74);
             TombolSimpan.Name = "TombolSimpan";
-            TombolSimpan.Size = new Size(112, 34);
+            TombolSimpan.Size = new Size(178, 48);
             TombolSimpan.TabIndex = 0;
             TombolSimpan.Text = "Simpan";
             TombolSimpan.UseVisualStyleBackColor = true;
@@ -157,7 +156,7 @@
             // 
             // Email
             // 
-            Email.Location = new Point(556, 114);
+            Email.Location = new Point(556, 117);
             Email.Name = "Email";
             Email.Size = new Size(199, 31);
             Email.TabIndex = 4;
@@ -167,7 +166,7 @@
             // 
             label1.AutoSize = true;
             label1.FlatStyle = FlatStyle.Popup;
-            label1.Location = new Point(23, 52);
+            label1.Location = new Point(23, 58);
             label1.Name = "label1";
             label1.Size = new Size(46, 25);
             label1.TabIndex = 3;
@@ -200,7 +199,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(421, 126);
+            label5.Location = new Point(421, 120);
             label5.Name = "label5";
             label5.Size = new Size(54, 25);
             label5.TabIndex = 7;
@@ -217,7 +216,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(421, 49);
+            label4.Location = new Point(421, 55);
             label4.Name = "label4";
             label4.Size = new Size(68, 25);
             label4.TabIndex = 6;
@@ -244,8 +243,13 @@
             // groupBox3
             // 
             groupBox3.BackColor = Color.Teal;
-            groupBox3.Controls.Add(TombolCari);
+            groupBox3.Controls.Add(TombolHapus);
+            groupBox3.Controls.Add(label8);
+            groupBox3.Controls.Add(FilterButton);
+            groupBox3.Controls.Add(TombolUbah);
+            groupBox3.Controls.Add(comboBox1);
             groupBox3.Controls.Add(label7);
+            groupBox3.Controls.Add(TombolSimpan);
             groupBox3.Controls.Add(CariData);
             groupBox3.Location = new Point(12, 347);
             groupBox3.Name = "groupBox3";
@@ -254,19 +258,40 @@
             groupBox3.TabStop = false;
             groupBox3.Text = "Fitur";
             // 
-            // TombolCari
+            // label8
             // 
-            TombolCari.Location = new Point(174, 106);
-            TombolCari.Name = "TombolCari";
-            TombolCari.Size = new Size(112, 34);
-            TombolCari.TabIndex = 2;
-            TombolCari.Text = "Cari";
-            TombolCari.UseVisualStyleBackColor = true;
+            label8.AutoSize = true;
+            label8.BackColor = Color.Teal;
+            label8.Location = new Point(27, 160);
+            label8.Name = "label8";
+            label8.Size = new Size(88, 25);
+            label8.TabIndex = 8;
+            label8.Text = "Pilih FIlter";
+            // 
+            // FilterButton
+            // 
+            FilterButton.Location = new Point(27, 238);
+            FilterButton.Name = "FilterButton";
+            FilterButton.Size = new Size(112, 34);
+            FilterButton.TabIndex = 6;
+            FilterButton.Text = "Filter";
+            FilterButton.UseVisualStyleBackColor = true;
+            FilterButton.Click += FilterButton_Click;
+            // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(27, 188);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(216, 33);
+            comboBox1.TabIndex = 4;
+            comboBox1.Text = "Pilih Filter";
+            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(36, 49);
+            label7.Location = new Point(27, 46);
             label7.Name = "label7";
             label7.Size = new Size(84, 25);
             label7.TabIndex = 1;
@@ -274,9 +299,10 @@
             // 
             // CariData
             // 
-            CariData.Location = new Point(162, 46);
+            CariData.Location = new Point(27, 74);
+            CariData.Multiline = true;
             CariData.Name = "CariData";
-            CariData.Size = new Size(210, 31);
+            CariData.Size = new Size(210, 37);
             CariData.TabIndex = 0;
             CariData.TextChanged += CariData_TextChanged;
             // 
@@ -324,6 +350,8 @@
         private Button TombolHapus;
         private Button TombolUbah;
         private Button TombolSimpan;
-        private Button TombolCari;
+        private ComboBox comboBox1;
+        private Button FilterButton;
+        private Label label8;
     }
 }

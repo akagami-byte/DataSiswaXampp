@@ -11,7 +11,7 @@ namespace DataSiswaXampp.controller
     class Koneksi
     {
         string connectionstring = "Server=localhost;Database=siswa;Uid=root;Pwd=;";
-        MySqlConnection con;
+        public MySqlConnection con;
 
         public void OpenConnection()
         {

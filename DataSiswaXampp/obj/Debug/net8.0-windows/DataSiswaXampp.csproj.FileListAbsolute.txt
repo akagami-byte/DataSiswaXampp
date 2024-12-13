@@ -29,3 +29,4 @@ C:\Users\raiha\source\repos\DataSiswaXampp\DataSiswaXampp\obj\Debug\net8.0-windo
 C:\Users\raiha\source\repos\DataSiswaXampp\DataSiswaXampp\obj\Debug\net8.0-windows\DataSiswaXampp.pdb
 C:\Users\raiha\source\repos\DataSiswaXampp\DataSiswaXampp\obj\Debug\net8.0-windows\DataSiswaXampp.genruntimeconfig.cache
 C:\Users\raiha\source\repos\DataSiswaXampp\DataSiswaXampp\obj\Debug\net8.0-windows\ref\DataSiswaXampp.dll
+C:\Users\raiha\source\repos\DataSiswaXampp\DataSiswaXampp\obj\Debug\net8.0-windows\DataSiswaXampp.sourcelink.json
