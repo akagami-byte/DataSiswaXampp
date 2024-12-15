@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DataSiswaXampp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e44afb45fd01737464b01b9d63315eea79e339b4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e9ec0d8830e9473adfb68d14fd827871a735a21")]
 [assembly: System.Reflection.AssemblyProductAttribute("DataSiswaXampp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DataSiswaXampp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

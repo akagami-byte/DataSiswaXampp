@@ -1,6 +1,7 @@
 using System.Data;
 using DataSiswaXampp.controller;
 using MySql.Data.MySqlClient;
+#nullable disable
 
 namespace DataSiswaXampp
 {
@@ -19,6 +20,7 @@ namespace DataSiswaXampp
         {
             //Query Database
             DataSiswa.DataSource = koneksi.ShowData("SELECT * FROM siswadata");
+            DataSiswa.AllowUserToOrderColumns = false;
 
             //ubah nama colom
             DataSiswa.Columns[0].HeaderText = "ID";
@@ -30,14 +32,6 @@ namespace DataSiswaXampp
             DataSiswa.Columns[6].HeaderText = "Nomor Telefon";
         }
 
-        private void TampilFilter(string kolom, string nilaiFilter)
-        {
-            //siswafungsi sf = new siswafungsi();
-            //DataTable dt = sf.FilterData(kolom);
-            //DataSiswa.DataSource = dt;
-            string query = $"SELECT * FROM siswadata WHERE {kolom} LIKE '%{nilaiFilter}%'";
-            DataSiswa.DataSource = koneksi.ShowData(query);
-        }
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -202,7 +196,7 @@ namespace DataSiswaXampp
             //    Tampil();
             //}
         }
-
+        private string[] SiswaArray = { "NIM", "Nama", "Kelas", "Alamat", "Email", "Nomor Telepon" };
         private void FilterButton_Click(object sender, EventArgs e)
         {
             string FilterPilih = comboBox1.SelectedItem.ToString();
@@ -210,33 +204,38 @@ namespace DataSiswaXampp
             {
                 DataSiswa.DataSource = koneksi.ShowData("SELECT * FROM siswadata");
             }
-            if (FilterPilih == "NIM")
+            if (FilterPilih == SiswaArray[0])
             {
                 DataSiswa.DataSource = koneksi.ShowData("SELECT NIM FROM siswadata");
             }
-            if (FilterPilih == "Nama")
+            if (FilterPilih == SiswaArray[1])
             {
                 DataSiswa.DataSource = koneksi.ShowData("SELECT nama FROM siswadata");
             }
-            if (FilterPilih == "Kelas")
+            if (FilterPilih == SiswaArray[2])
             {
                 DataSiswa.DataSource = koneksi.ShowData("SELECT kelas FROM siswadata");
             }
-            if (FilterPilih == "Email")
+            if (FilterPilih == SiswaArray[3])
             {
                 DataSiswa.DataSource = koneksi.ShowData("SELECT email FROM siswadata");
             }
-            if (FilterPilih == "No. hp ")
+            if (FilterPilih == SiswaArray[4])
             {
                 DataSiswa.DataSource = koneksi.ShowData("SELECT nohp FROM siswadata");
             }
-            if (FilterPilih == "Alamat")
+            if (FilterPilih == SiswaArray[5])
             {
                 DataSiswa.DataSource = koneksi.ShowData("SELECT alamat FROM siswadata");
             }
         }
 
         private void TombolCari_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
         {
 
         }

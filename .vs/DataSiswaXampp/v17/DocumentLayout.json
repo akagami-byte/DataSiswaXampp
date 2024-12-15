@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\raiha\\source\\repos\\DataSiswaXampp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C3C2FE4E-EAE0-4686-8EE2-50756AD0D272}|DataSiswaXampp\\DataSiswaXampp.csproj|c:\\users\\raiha\\source\\repos\\datasiswaxampp\\datasiswaxampp\\controller\\koneksi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3C2FE4E-EAE0-4686-8EE2-50756AD0D272}|DataSiswaXampp\\DataSiswaXampp.csproj|solutionrelative:datasiswaxampp\\controller\\koneksi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3C2FE4E-EAE0-4686-8EE2-50756AD0D272}|DataSiswaXampp\\DataSiswaXampp.csproj|c:\\users\\raiha\\source\\repos\\datasiswaxampp\\datasiswaxampp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C3C2FE4E-EAE0-4686-8EE2-50756AD0D272}|DataSiswaXampp\\DataSiswaXampp.csproj|solutionrelative:datasiswaxampp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3C2FE4E-EAE0-4686-8EE2-50756AD0D272}|DataSiswaXampp\\DataSiswaXampp.csproj|c:\\users\\raiha\\source\\repos\\datasiswaxampp\\datasiswaxampp\\siswaclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3C2FE4E-EAE0-4686-8EE2-50756AD0D272}|DataSiswaXampp\\DataSiswaXampp.csproj|solutionrelative:datasiswaxampp\\siswaclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3C2FE4E-EAE0-4686-8EE2-50756AD0D272}|DataSiswaXampp\\DataSiswaXampp.csproj|c:\\users\\raiha\\source\\repos\\datasiswaxampp\\datasiswaxampp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C2FE4E-EAE0-4686-8EE2-50756AD0D272}|DataSiswaXampp\\DataSiswaXampp.csproj|solutionrelative:datasiswaxampp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3C2FE4E-EAE0-4686-8EE2-50756AD0D272}|DataSiswaXampp\\DataSiswaXampp.csproj|c:\\users\\raiha\\source\\repos\\datasiswaxampp\\datasiswaxampp\\controller\\siswafungsi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3C2FE4E-EAE0-4686-8EE2-50756AD0D272}|DataSiswaXampp\\DataSiswaXampp.csproj|solutionrelative:datasiswaxampp\\controller\\siswafungsi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3C2FE4E-EAE0-4686-8EE2-50756AD0D272}|DataSiswaXampp\\DataSiswaXampp.csproj|C:\\Users\\raiha\\source\\repos\\DataSiswaXampp\\datasiswaxampp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C3C2FE4E-EAE0-4686-8EE2-50756AD0D272}|DataSiswaXampp\\DataSiswaXampp.csproj|solutionrelative:datasiswaxampp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C3C2FE4E-EAE0-4686-8EE2-50756AD0D272}|DataSiswaXampp\\DataSiswaXampp.csproj|c:\\users\\raiha\\source\\repos\\datasiswaxampp\\datasiswaxampp\\siswaclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C2FE4E-EAE0-4686-8EE2-50756AD0D272}|DataSiswaXampp\\DataSiswaXampp.csproj|solutionrelative:datasiswaxampp\\siswaclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C2FE4E-EAE0-4686-8EE2-50756AD0D272}|DataSiswaXampp\\DataSiswaXampp.csproj|c:\\users\\raiha\\source\\repos\\datasiswaxampp\\datasiswaxampp\\controller\\koneksi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C2FE4E-EAE0-4686-8EE2-50756AD0D272}|DataSiswaXampp\\DataSiswaXampp.csproj|solutionrelative:datasiswaxampp\\controller\\koneksi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3C2FE4E-EAE0-4686-8EE2-50756AD0D272}|DataSiswaXampp\\DataSiswaXampp.csproj|c:\\users\\raiha\\source\\repos\\datasiswaxampp\\datasiswaxampp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3C2FE4E-EAE0-4686-8EE2-50756AD0D272}|DataSiswaXampp\\DataSiswaXampp.csproj|solutionrelative:datasiswaxampp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3C2FE4E-EAE0-4686-8EE2-50756AD0D272}|DataSiswaXampp\\DataSiswaXampp.csproj|c:\\users\\raiha\\source\\repos\\datasiswaxampp\\datasiswaxampp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3C2FE4E-EAE0-4686-8EE2-50756AD0D272}|DataSiswaXampp\\DataSiswaXampp.csproj|solutionrelative:datasiswaxampp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,17 +34,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\raiha\\source\\repos\\DataSiswaXampp\\DataSiswaXampp\\Form1.cs",
               "RelativeDocumentMoniker": "DataSiswaXampp\\Form1.cs",
-              "ToolTip": "C:\\Users\\raiha\\source\\repos\\DataSiswaXampp\\DataSiswaXampp\\Form1.cs",
-              "RelativeToolTip": "DataSiswaXampp\\Form1.cs",
-              "ViewState": "AgIAAOIAAAAAAAAAAAAMwPAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\raiha\\source\\repos\\DataSiswaXampp\\DataSiswaXampp\\Form1.cs*",
+              "RelativeToolTip": "DataSiswaXampp\\Form1.cs*",
+              "ViewState": "AgIAABcAAAAAAAAAAAAhwCUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "OverriddenGroupName": "DataSiswaXampp",
               "WhenOpened": "2024-11-24T06:58:40.969Z",
@@ -52,27 +52,34 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\raiha\\source\\repos\\DataSiswaXampp\\DataSiswaXampp\\Program.cs",
-              "RelativeDocumentMoniker": "DataSiswaXampp\\Program.cs",
-              "ToolTip": "C:\\Users\\raiha\\source\\repos\\DataSiswaXampp\\DataSiswaXampp\\Program.cs",
-              "RelativeToolTip": "DataSiswaXampp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T14:14:02.32Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\raiha\\source\\repos\\DataSiswaXampp\\DataSiswaXampp\\Program.cs",
+              "RelativeDocumentMoniker": "DataSiswaXampp\\Program.cs",
+              "ToolTip": "DataSiswaXampp/Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "DataSiswaXampp",
+              "OverriddenToolTip": "DataSiswaXampp/Program.cs",
+              "WhenOpened": "2024-12-12T14:14:02.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\raiha\\source\\repos\\DataSiswaXampp\\DataSiswaXampp\\Form1.cs",
               "RelativeDocumentMoniker": "DataSiswaXampp\\Form1.cs",
-              "ToolTip": "C:\\Users\\raiha\\source\\repos\\DataSiswaXampp\\DataSiswaXampp\\Form1.cs [Design]",
-              "RelativeToolTip": "DataSiswaXampp\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\raiha\\source\\repos\\DataSiswaXampp\\DataSiswaXampp\\Form1.cs [Design]*",
+              "RelativeToolTip": "DataSiswaXampp\\Form1.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T19:08:11.724Z"
+              "WhenOpened": "2024-11-24T19:08:11.724Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -82,32 +89,34 @@
               "RelativeDocumentMoniker": "DataSiswaXampp\\controller\\siswafungsi.cs",
               "ToolTip": "C:\\Users\\raiha\\source\\repos\\DataSiswaXampp\\DataSiswaXampp\\controller\\siswafungsi.cs",
               "RelativeToolTip": "DataSiswaXampp\\controller\\siswafungsi.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAQwCUAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwAoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T13:17:09.437Z"
+              "WhenOpened": "2024-11-24T13:17:09.437Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "SiswaClass.cs",
               "DocumentMoniker": "C:\\Users\\raiha\\source\\repos\\DataSiswaXampp\\DataSiswaXampp\\SiswaClass.cs",
               "RelativeDocumentMoniker": "DataSiswaXampp\\SiswaClass.cs",
-              "ToolTip": "DataSiswaXampp/SiswaClass.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\raiha\\source\\repos\\DataSiswaXampp\\DataSiswaXampp\\SiswaClass.cs",
+              "RelativeToolTip": "DataSiswaXampp\\SiswaClass.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB0AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "OverriddenGroupName": "DataSiswaXampp",
-              "OverriddenToolTip": "DataSiswaXampp/SiswaClass.cs",
-              "WhenOpened": "2024-11-24T12:58:32.324Z"
+              "WhenOpened": "2024-11-24T12:58:32.324Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Koneksi.cs",
               "DocumentMoniker": "C:\\Users\\raiha\\source\\repos\\DataSiswaXampp\\DataSiswaXampp\\controller\\Koneksi.cs",
               "RelativeDocumentMoniker": "DataSiswaXampp\\controller\\Koneksi.cs",
               "ToolTip": "C:\\Users\\raiha\\source\\repos\\DataSiswaXampp\\DataSiswaXampp\\controller\\Koneksi.cs",
               "RelativeToolTip": "DataSiswaXampp\\controller\\Koneksi.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwBgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-24T08:00:44.302Z",
               "EditorCaption": ""

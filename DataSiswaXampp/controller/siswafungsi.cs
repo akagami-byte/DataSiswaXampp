@@ -94,19 +94,7 @@ namespace DataSiswaXampp.controller
             }
             return status;
         }
-        // siswafungsi.cs
-        public DataTable FilterData(string kolom)
-        {
-            string query = $"SELECT {kolom} FROM siswadata";
-            MySqlConnection connect = new MySqlConnection("server=localhost;database=siswa;user=root;password=");
-            MySqlCommand cmd = new MySqlCommand(query, connect);
-            DataTable dt = new DataTable();
-            MySqlDataAdapter da = new MySqlDataAdapter(cmd);
-            connect.Open();
-            da.Fill(dt);
-            connect.Close();
-            return dt;
-        }
+        
 
     }
 }
