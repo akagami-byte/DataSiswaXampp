@@ -7,27 +7,35 @@ using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 #nullable disable
 
-namespace DataSiswaXampp.controller
+//Kelas: SI-KJ-24-01
+//Kelompok: 09
+//Anggota Kelompok:
+//1. Muhammad Raihan Divanda (102042430032)
+//2. Sulthan Muhammad Avedha Maheswara(102042400144)
+//3. Hany kumalasari(102042330003)
+//4. Puti Azzahra Navita (102042400105)
+
+namespace DataSiswaXampp
 {
     class Koneksi
     {
-        string connectionstring = "Server=localhost;Database=siswa;Uid=root;Pwd=;";
-        public MySqlConnection con;
+        string connectionstring_0109 = "Server=localhost;Database=siswa;Uid=root;Pwd=;"; //nama server
+        public MySqlConnection con_0109;
 
         public void OpenConnection()
         {
-            con = new MySqlConnection(connectionstring);
-            con.Open();
+            con_0109 = new MySqlConnection(connectionstring_0109);
+            con_0109.Open();
         }
 
         public void CloseConnection()
         {
-            con.Close();
+            con_0109.Close();
         }
 
         public void ExecuteQuery(string query)
         {
-            MySqlCommand command = new MySqlCommand(query, con);
+            MySqlCommand command = new MySqlCommand(query, con_0109);
             command.ExecuteNonQuery();
         }
 
@@ -39,18 +47,16 @@ namespace DataSiswaXampp.controller
             //Open Connection
             OpenConnection();
             // Create a command object for the query
-            MySqlCommand command = new MySqlCommand(query, con);
+            MySqlCommand command = new MySqlCommand(query, con_0109);
             // Assign the command to the adapter's SelectCommand
             adapter.SelectCommand = command;
             // Fill the DataSet
             adapter.Fill(data);
-            // Close the connection
+            // Close the con_0109nection
             CloseConnection();
 
-            object bebas = data.Tables[0];
-            return bebas;
+            object bebas_0109 = data.Tables[0];
+            return bebas_0109;
         }
     }
-
-
 }

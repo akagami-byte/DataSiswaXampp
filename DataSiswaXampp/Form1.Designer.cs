@@ -193,6 +193,7 @@
             Kelas.Name = "Kelas";
             Kelas.Size = new Size(202, 31);
             Kelas.TabIndex = 2;
+            Kelas.TextChanged += Kelas_TextChanged;
             // 
             // label5
             // 
